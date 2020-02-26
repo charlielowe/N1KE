@@ -1,0 +1,220 @@
+
+
+body{
+    background-color: whitesmoke ;
+    position: relative;
+    width: 400px;
+    height: 2306px;
+    overflow-x: hidden ;
+    background: #F4F5F7;
+}
+
+#lightRT{
+    z-index: +2;
+    transform: rotate(10.32deg);
+    
+    
+}
+
+#header{
+    grid-area: header;
+    position: relative;
+    bottom: -40px;
+    text-align: center;
+    margin-top: 0px;
+    
+    z-index: +2;
+    margin-bottom: 0px;
+    
+    padding-bottom: 10%;
+    color: #273043;
+    font-family: Pathway Gothic One;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 500%;
+}
+    
+#header2{
+    
+        grid-area: header;
+        position: relative;
+        bottom: -40px;
+        text-align: center;
+        margin-top: 0px;
+        left: -4px;
+        z-index: +1;
+        margin-bottom: 0px;
+        
+        padding-bottom: 10%;
+        color: white;
+        font-family: Pathway Gothic One;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 500%;
+    
+}
+#container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    
+    grid-template-areas: 
+    "burger header ."
+    ;
+
+}
+
+#alpha{
+    margin-left: 0%;
+    position: relative;
+    font-family: 'Iceberg';font-size: 100px;
+    padding-bottom: 0px;
+    top: -40px;
+    font-style: normal;
+font-weight: normal;
+    color: whitesmoke;
+    margin-bottom: 0px;
+}
+#menace{
+    margin-left: -24%;
+    text-align: center;
+    position: relative;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    top: -50px;
+    font-style: normal;
+    font-weight: normal;
+    color: #273043;
+    margin-top: 0px;
+    padding-top: 0px;
+    font-family: 'Iceberg';font-size: 25px;
+
+}
+
+#bur{
+    grid-area: burger;
+    width: 35px;
+
+    height: 5px;
+    background-color: #273043;
+    margin: 6px 0;
+}
+
+#find{
+    position: relative;
+width: 150px;
+height: 58px;
+left: 20px;
+top: 336px;
+
+background: #273043;
+border-radius: 29px;
+    margin-left: 15%;
+    text-align: center;
+    background: #273043 ;
+    
+   
+    top: -30px;
+    padding-top: 10px;
+    height: 30px;
+    font-family: 'Iceberg';
+    font-style: normal;
+font-weight: normal;
+    color: whitesmoke;
+ 
+}
+
+#lightR{
+
+width: 420px;
+margin-left: -21%;
+padding-left: 30%;
+padding-top: 10%;
+height: 250px;
+margin-top: 0;
+left: -72.79px;
+height: 300px;
+z-index: 1;
+background: #DD0426;
+transform: rotate(-10.32deg);
+}
+
+#darkR{
+    
+    width: 420px;
+    margin-left: -21%;
+    padding-left: 30%;
+    padding-top: 10%;
+    height: 250px;
+    margin-top: 0;
+    left: -72.79px;
+    height: 300px;
+    z-index: 1;
+    background:  #C20321;
+    transform: rotate(-10.32deg);
+    }
+
+    #darkRT{
+        z-index: +2;
+        transform: rotate(10.32deg);
+        
+        
+    }
+
+    #dominating{
+        position: relative;
+width: 743px;
+height: 141px;
+
+left: -220px;
+
+font-family: Pathway Gothic One;
+font-style: normal;
+font-weight: normal;
+font-size: 50px;
+line-height: 60px;
+padding-bottom: 0px;
+margin-bottom: 0px;
+text-align: center;
+
+color: #F4F5F7;
+    }
+
+    #incorp{
+        padding-top: 0px;
+        margin-top: 0px;
+        position: relative;
+width: 743px;
+height: 141px;
+left: -220px;
+
+
+font-family: Pathway Gothic One;
+font-style: normal;
+font-weight: normal;
+font-size: 20px;
+line-height: 28px;
+text-align: center;
+
+color: #F4F5F7;
+
+    }
+    
+#yada{
+    
+position: relative;
+width: 334px;
+height: 97px;
+left: 22px;
+top: 100px;
+
+
+font-family: Pathway Gothic One;
+font-style: normal;
+font-weight: normal;
+font-size: 72px;
+line-height: 83px;
+text-align: right;
+
+color: #273043;
+
+}
